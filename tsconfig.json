@@ -1,0 +1,23 @@
+{
+    "display": "Node LTS",
+    "_version": "20.1.0",
+    "compilerOptions": {
+      "lib": [
+        "es2023"
+      ],
+      "module": "node16",
+      "target": "es2022",
+      "strict": true,
+      "outDir": "./backend/dist",
+      "rootDir": "./backend/src",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "moduleResolution": "node16"
+    },
+    "include": [
+      "./backend/src/**/*.ts",
+    ],
+    "exclude": [
+      "./node_modules",
+    ]
+  }

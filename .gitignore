@@ -1,0 +1,11 @@
+# Node Modules
+node_modules
+
+# env
+.env
+
+# input 
+input
+
+# output
+output
